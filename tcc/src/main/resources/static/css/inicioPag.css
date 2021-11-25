@@ -1,0 +1,9 @@
+@charset "UTF-8";
+#body{
+		
+		margin:0;
+		padding: 0;
+		background-image: url("/img/Fundo.png");
+		height: 100vh;
+		background-size: contain;
+	}	

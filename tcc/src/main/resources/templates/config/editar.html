@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt" xmlns="http://www.w3.org/1999/xhtml​"
+	xmlns:th="http://www.thymeleaf.org​"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/la...​">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Editar perfil</title>
+	<link href="/css/perfil.css" rel="stylesheet" />
+	<link
+		href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+		rel="stylesheet"
+		integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+		crossorigin="anonymous">
+</head>
+<body>
+	<form>
+	  <div class="form-group mx-sm-3 mb-2">
+		 <label for="inputPassword2" class="sr-only">Email:</label>
+		  <input type="password" class="form-control" id="inputPassword2" placeholder="${">
+		</div>
+		<div class="form-group mx-sm-3 mb-2">
+			<label for="inputPassword2" class="sr-only">Senha:</label>
+			<input type="password" class="form-control" id="inputPassword2" placeholder="">
+		 </div >
+		 <div id="botaoConf">
+			<button  type="submit" class="btn btn-primary mb-2">Confirmar </button>
+		 </div>
+	</form>
+	<a th:href="'/usuarios/editar' + ${u.email}">
+		Editar
+	</a>
+</body>	
+</html>

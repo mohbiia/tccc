@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body{
+	background-color: #007D7D;
+}
+
+#body {
+	margin: 0;
+	padding: 0;
+	background-image: url("/img/Fundo.png");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	height: 100vh;
+	background-size: cover;
+	
+
+	
+	
+}
+
+.nav-item3{
+	background-color: #7697A0;
+	border-radius: 20px;
+}
+#centro{
+		/*como deixar no centro*/
+			margin-left: auto;
+			margin-right: auto;
+		
+			max-width: 500px;
+			background: white;
+			margin-left: auto;
+		    margin-right: auto;
+		   
+		    border-radius: 20px;
+		    
+		    
+	}
+	#botaoConf {
+		 text-align: center 
+		 
+	}

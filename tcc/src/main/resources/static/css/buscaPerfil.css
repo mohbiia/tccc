@@ -1,0 +1,38 @@
+@charset "UTF-8";
+#body{
+		
+		margin:0;
+		padding: 0;
+		background-image: url("/img/Fundo.png");
+		height: 100vh;
+		background-size: contain;
+		
+	}	
+	#buscaMateria{
+	width: 600px;
+	border-radius: 20px;
+	margin-left: 10px;
+	margin-right: auto;
+}
+.nav-item2{
+	background-color: #7697A0;
+	border-radius: 20px;
+}
+table{
+	margin-left: 39px;
+	
+}
+.container{
+	padding: 20px;
+}
+#resultados{
+	background-color: white;
+	border-radius: 5px;
+	width: 7cm;
+	
+}
+.resposta{
+	margin-left: auto;
+	margin-right: auto;
+}
+
